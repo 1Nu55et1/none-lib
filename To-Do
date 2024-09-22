@@ -1,0 +1,43 @@
+# Tareas pendientes
+
+Urgencia: [Alta] [Media] [Baja]
+
+## Gráficos
+- [x] Implementar DirectX renderer (solo para Windows)
+- [x] Implementar Vulkan renderer (multiplataforma, hay margen de mejora en draw_line y present)
+- [x] Implementar Metal renderer (implementación básica 
+completada, falta optimizar y probar, solo para macOS)
+- [x] Implementar OpenGL renderer (multiplataforma)
+- [ ] Optimizar el rendimiento de los renderers [Media]
+- [ ] Implementar sistema de cámara [Baja]
+- [ ] Añadir soporte para renderizado 3D [Baja]
+- [ ] Implementar sistema de iluminación [Baja]
+
+- [ ] Implementar OpenGL renderer [Alta]
+- [ ] Optimizar el rendimiento de los renderers [Media]
+- [ ] Implementar sistema de cámara [Baja]
+- [ ] Añadir soporte para renderizado 3D [Baja]
+- [ ] Implementar sistema de iluminación [Baja]
+
+## UI
+- [ ] Desarrollar componentes básicos de UI (botones, campos de texto, etc.) [Media]
+- [ ] Implementar sistema de layouts [Media]
+- [ ] Añadir soporte para temas [Baja]
+
+## CSS
+- [ ] Implementar parser de CSS básico [Media]
+- [ ] Añadir soporte para selectores complejos [Baja]
+- [ ] Implementar sistema de cascada y especificidad [Baja]
+
+## Matemáticas
+- [ ] Añadir más funciones matemáticas avanzadas [Baja]
+- [ ] Optimizar algoritmos existentes [Media]
+
+## Regex
+- [ ] Expandir funcionalidades del motor de regex simple [Media]
+- [ ] Añadir soporte para expresiones regulares más complejas [Baja]
+
+## General
+- [ ] Mejorar la documentación [Alta]
+- [ ] Añadir más pruebas unitarias [Alta]
+- [ ] Optimizar el rendimiento general de la biblioteca [Media]

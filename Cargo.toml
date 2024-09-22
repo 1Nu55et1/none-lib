@@ -1,0 +1,27 @@
+[package]
+name = "none-lib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[features]
+default = ["graphics"]
+graphics = []
+math = []
+regex = []
+
+[dependencies]
+gl = "0.14.0"
+glutin = "0.28.0"
+winit = "0.26.0"
+vulkano = "0.32.3"
+vulkano-shaders = "0.32.0"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+metal = "0.24.0"
+cocoa = "0.24.0"
+objc = "0.2.7"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+windows = { version = "0.48", features = ["Win32_Graphics_Direct3D11", "Win32_Foundation"] }
